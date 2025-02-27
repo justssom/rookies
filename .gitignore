@@ -1,1 +1,14 @@
 ROOTAIR_WEB-sub-main/blueprints/utils.py
+
+# 가상환경 관련
+venv/
+.env
+
+# 캐시 파일
+__pycache__/
+*.pyc
+*.pyo
+
+# 로그 및 임시 파일
+*.log
+*.tmp
