@@ -5,11 +5,10 @@ def get_db_connection():
     return pymysql.connect(
         host='localhost',
         user='root',
-        password='1234',
-        database='mydatabase',
+        password='vndgh3538',
+        database='flask_root1234',
         charset='utf8mb4',
         use_unicode=True,
-        port=3307,  # ✅ 명확하게 포트 설정
         cursorclass=pymysql.cursors.DictCursor
     )
 
